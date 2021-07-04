@@ -24,7 +24,8 @@ body{
     width: 50%;
     text-align: center;
 }
-.hero-img-box img{
+.hero-img-box img,
+.dream-big-image-box img{
     width: 60%;
 }
 .orange-color{
@@ -40,7 +41,7 @@ h3{
 p{
     color: gray;
 }
-.hire-btn:link{
+.btn:link{
     text-decoration: none;
     background-image: linear-gradient(to right,orangered, tomato);
     color: white;
@@ -49,4 +50,18 @@ p{
     display: inline-block;
     margin: 10px 0;
     border-radius: 5px;
+}
+
+.dream-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.dream-big-image-box,
+.dream-big-text-box{
+    width: 50%;
 }
