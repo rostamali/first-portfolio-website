@@ -34,8 +34,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+    margin: 10px 0;
+}
 h3{
     font-size: 25px;
+    margin: 10px 0;
+}
+h4{
     margin: 10px 0;
 }
 p{
@@ -64,4 +71,40 @@ p{
 .dream-big-image-box,
 .dream-big-text-box{
     width: 50%;
+}
+
+.experience-box-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.full-stack,
+.baby-web{
+    width: 46%;
+    margin: 0 2%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 30px 25px;
+}
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.experiences{
+    padding: 40px 40px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+footer p{
+    text-align: center;
+    color: black;
+}
+footer{
+    padding: 30px 0;
 }
