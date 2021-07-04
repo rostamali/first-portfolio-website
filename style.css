@@ -51,7 +51,8 @@ h4{
 p{
     color: gray;
 }
-.btn:link{
+.btn:link,
+.btn:active{
     text-decoration: none;
     background-image: linear-gradient(to right,orangered, tomato);
     color: white;
